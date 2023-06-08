@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% block title %}
+Inicio
+{% endblock %}
+{% block content %}
+<!--Comentario en HTML-->
+{% comment 'Datos de la pagina index' %}
+En esta pagina se mostrara la bienvenida al sistema
+{% endcomment %}
+<h1 class="title">Página Index</h1>
+<h2>Usango templates</h2>
+Mensaje: {{mensaje}}
+{% endblock %}
